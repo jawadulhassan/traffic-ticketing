@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "demo@traffic.com",
+      "password": "d3ad9315b7be5dd53b31a273b3b3aba5defe700808305aa16a3062b76658a791",
+      "name": "Demo Annotator",
+      "created_at": "2025-09-20T19:09:13.359Z"
+    }
+  ],
+  "traffic_events": [
+    {
+      "id": 1,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "license_plate_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pakistan_-_License_Plate_-_Punjab.png",
+      "event_type": "stop_sign_violation",
+      "location": "Main Street & Oak Avenue",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": true
+    },
+    {
+      "id": 2,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "license_plate_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Pakistan_-_License_Plate_-_Sindh.png",
+      "event_type": "red_light_violation",
+      "location": "First Street & Pine Road",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": true
+    },
+    {
+      "id": 3,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "license_plate_image_url": "https://hpr.com/wp-content/uploads/2023/08/LP_USA_California_passenger.jpg",
+      "event_type": "speeding",
+      "location": "Highway 101 Mile 45",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": true
+    },
+    {
+      "id": 4,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "license_plate_image_url": "https://i.etsystatic.com/16787675/r/il/36fd7b/4020111489/il_570xN.4020111489_8bq0.jpg",
+      "event_type": "stop_sign_violation",
+      "location": "Cedar Street & Maple Drive",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": false
+    },
+    {
+      "id": 5,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "license_plate_image_url": "https://i.etsystatic.com/16787675/r/il/6d003a/4019873185/il_570xN.4019873185_3e2p.jpg",
+      "event_type": "red_light_violation",
+      "location": "Second Avenue & Elm Street",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": false
+    },
+    {
+      "id": 6,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      "license_plate_image_url": "https://signsandtagsonline.com/cdn/shop/products/california-custom-SESQUICENTENNIAL-150-YEARS-plate.jpg?v=1576010878&width=1445",
+      "event_type": "speeding",
+      "location": "Park Boulevard & Valley Road",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": true
+    },
+    {
+      "id": 7,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+      "license_plate_image_url": "https://signsandtagsonline.com/cdn/shop/products/california-custom-SESQUICENTENNIAL-150-YEARS-plate.jpg?v=1576010878&width=1445",
+      "event_type": "stop_sign_violation",
+      "location": "Riverside Drive & Bridge Street",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": false
+    },
+    {
+      "id": 8,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "license_plate_image_url": "https://i.etsystatic.com/16787675/r/il/86d3b2/3962681964/il_570xN.3962681964_2sz9.jpg",
+      "event_type": "red_light_violation",
+      "location": "Downtown Plaza & Commerce Street",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": false
+    },
+    {
+      "id": 9,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+      "license_plate_image_url": "https://i.etsystatic.com/16787675/r/il/86d3b2/3962681964/il_570xN.3962681964_2sz9.jpg",
+      "event_type": "speeding",
+      "location": "Industrial Parkway & Factory Road",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": true
+    },
+    {
+      "id": 10,
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "license_plate_image_url": "https://1800lionlaw.com/wp-content/uploads/2023/09/Texas-license-plate-scaled.jpeg",
+      "event_type": "stop_sign_violation",
+      "location": "School Street & Campus Drive",
+      "timestamp": "2025-09-20T19:09:13.359Z",
+      "is_processed": false
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "event_id": 6,
+      "user_id": 1,
+      "license_plate_number": "",
+      "decision": "rejected",
+      "issue_reason": "false_positive",
+      "created_at": "2025-09-20T19:33:21.803Z"
+    },
+    {
+      "id": 2,
+      "event_id": 1,
+      "user_id": 1,
+      "license_plate_number": "",
+      "decision": "rejected",
+      "issue_reason": "license_plate_issue",
+      "created_at": "2025-09-20T19:47:25.703Z"
+    },
+    {
+      "id": 3,
+      "event_id": 2,
+      "user_id": 1,
+      "license_plate_number": "",
+      "decision": "accepted",
+      "created_at": "2025-09-20T20:18:32.324Z"
+    },
+    {
+      "id": 4,
+      "event_id": 9,
+      "user_id": 1,
+      "license_plate_number": "324234",
+      "decision": "accepted",
+      "dmv_make": "BMW",
+      "dmv_model": "3 Series",
+      "dmv_color": "Black",
+      "created_at": "2025-09-20T20:25:56.296Z"
+    },
+    {
+      "id": 5,
+      "event_id": 3,
+      "user_id": 1,
+      "license_plate_number": "SDFSDFSD",
+      "decision": "rejected",
+      "issue_reason": "license_plate_issue",
+      "dmv_make": "Hyundai",
+      "dmv_model": "Elantra",
+      "dmv_color": "Blue",
+      "created_at": "2025-09-20T20:26:21.148Z"
+    }
+  ]
+}
