@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import crypto from "crypto";
-import getDatabase, { initDatabase } from "@/lib/database-json";
+import getDatabase, { initDatabase } from "@/lib/database-vercel";
 
 export async function POST(request: NextRequest) {
   try {

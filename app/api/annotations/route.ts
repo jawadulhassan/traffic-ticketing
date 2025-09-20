@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import getDatabase from "@/lib/database-json";
+import getDatabase from "@/lib/database-vercel";
 
 export async function POST(request: NextRequest) {
   try {

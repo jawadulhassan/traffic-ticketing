@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { initDatabase, seedDatabase } from "@/lib/database-json";
+import { initDatabase, seedDatabase } from "@/lib/database-vercel";
 
 export async function POST(request: NextRequest) {
   try {
