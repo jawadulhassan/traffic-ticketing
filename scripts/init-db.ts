@@ -1,4 +1,4 @@
-import { initDatabase, seedDatabase } from "../lib/database";
+import { initDatabase, seedDatabase } from "../lib/database-json";
 
 async function main() {
   try {

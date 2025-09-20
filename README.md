@@ -1,24 +1,22 @@
 # traffic-ticketing
 
+## Live Demo
+
+🚀 **[View Live Demo on Vercel](https://traffic-ticketing.vercel.app)**
+
+## Local Development
+
 # Install all dependencies
 
 npm install
 
-# Navigate to better-sqlite3 module
+# Initialize database with sample data
 
-cd node_modules/better-sqlite3
+npm run init-db
 
-# Return to project root
+# Start development server
 
-cd ../..
-
-# Rebuild SQLite with proper permissions
-
-sudo npm rebuild
-
-# Initialize database with HR permissions
-
-sudo npm run init-db
+npm run dev
 
 # Build for production
 
@@ -32,6 +30,11 @@ npm start
 
 npm run lint
 
-# Start development server
+## Deployment
 
-npm run dev
+This app is configured for Vercel deployment and uses a JSON-based database that's compatible with serverless environments.
+
+### Demo Credentials
+
+- **Email:** demo@traffic.com
+- **Password:** demo123
